@@ -1,67 +1,148 @@
-# Personal Finance & Expense Analytics App
+# 💰 Personal Finance & Expense Analytics App
 
-A simple and presentable React project built from the given PRD. It includes transaction management, budget tracking, filtering, search, sorting, analytics charts, recurring expense highlighting, Context API state management, custom hooks, and API integration.
+A simple, clean, and user-friendly Personal Finance Tracker built using React.  
+This application helps users manage income, track expenses, analyze spending patterns, and maintain monthly budgets effectively.
 
 ---
 
-## Features
+## 📌 Features
 
-- Dashboard with total income, expenses, balance, and top category
-- Add, edit, and delete transactions
+### ✅ Transaction Management
+- Add income and expense transactions
+- Edit and delete transactions
+- Categorize expenses (Food, Travel, Rent, etc.)
+
+### 🔍 Search & Filter
 - Search by title or notes
 - Filter by category, type, and date range
-- Sort by date, amount, and category
-- Monthly budget tracking with percentage used
-- Analytics page with pie, line, and bar charts
-- Recurring expense highlight
-- Local storage persistence
-- Exchange rate API integration
+- Sort by date, amount, or category
+
+### 📊 Dashboard Insights
+- Total Income
+- Total Expenses
+- Net Balance
+- Top Spending Category
+
+### 💸 Budget Tracking
+- Set monthly budget
+- Track:
+  - Amount spent
+  - Remaining balance
+  - Percentage used
+
+### 📈 Analytics
+- Category-wise spending (Pie Chart)
+- Monthly trends (Line Chart)
+- Income vs Expense (Bar Chart)
+
+### 🔁 Recurring Expenses
+- Mark transactions as recurring
+- Highlight subscriptions (Netflix, rent, etc.)
+
+### 🌐 API Integration
+- Currency conversion (INR → USD)
+
+### 💾 Data Persistence
+- LocalStorage used to save data
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- React + Vite
-- React Router DOM
-- Context API
-- react-hook-form + yup
-- recharts
-- axios
-- react-toastify
-- framer-motion
-- date-fns
-- uuid
+- Frontend: React (Vite)
+- Routing: React Router DOM
+- State Management: Context API
+- Forms: React Hook Form + Yup
+- Charts: Recharts
+- HTTP Client: Axios
+- Icons: React Icons
+- Notifications: React Toastify
+- Animations: Framer Motion
+- Date Handling: date-fns
 
 ---
 
-## Run Locally
+## 📂 Folder Structure
 
-```bash
-npm install
-npm run dev
 ```
-
----
-
-## Routes
-
-- `/dashboard`
-- `/transactions`
-- `/transactions/new`
-- `/budget`
-- `/analytics`
-
----
-
-## Folder Structure
-
-```bash
 src/
-  components/
-  context/
-  data/
-  hooks/
-  pages/
-  services/
-  utils/
+
+│
+├── components/
+├── pages/
+├── context/
+├── hooks/
+├── services/
+├── utils/
+│
+└── App.jsx
+
 ```
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/finance-app.git
+cd finance-app
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+---
+
+## 🎯 Project Objectives
+
+This project was built to:
+- Understand React fundamentals
+- Implement real-world state management
+- Practice UI design and component structure
+- Build a production-level mini application
+
+---
+
+## 📊 Evaluation Coverage
+
+✔ Feature completeness  
+✔ Clean React architecture  
+✔ Proper state management (Context API)  
+✔ Functional UI design  
+✔ Code quality & structure  
+
+---
+
+## 👤 Author
+
+Nishant Borah
+Scaler School of Technology
+Batch of 2029
+
+---
+
+## ⭐ Future Improvements
+
+- User authentication (Firebase)
+- Cloud database integration
+- Dark mode
+- Multi-currency support
+- Export reports (PDF/CSV)
+
+---
+
+## 🙌 Acknowledgements
+
+- React Documentation  
+- Vite  
+- Recharts  
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
