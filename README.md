@@ -84,7 +84,7 @@ src/
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/finance-app.git
+git clone https://github.com/Nishant-chilled/Class-Project-2---Personal-Finance-Expense-Analytics-App/blob/main/README.md
 cd finance-app
 
 Install dependencies:
