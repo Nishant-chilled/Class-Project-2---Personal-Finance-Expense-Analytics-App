@@ -82,10 +82,14 @@ src/
 
 ## ⚙️ Installation & Setup
 
+GitHub Repository:
+
+https://github.com/Nishant-chilled/Class-Project-2---Personal-Finance-Expense-Analytics-App
+
 Clone the repository:
 
-git clone https://github.com/Nishant-chilled/Class-Project-2---Personal-Finance-Expense-Analytics-App/blob/main/README.md
-cd finance-app
+git clone https://github.com/Nishant-chilled/Class-Project-2---Personal-Finance-Expense-Analytics-App.git  
+cd Class-Project-2---Personal-Finance-Expense-Analytics-App
 
 Install dependencies:
 
@@ -94,6 +98,7 @@ npm install
 Run the development server:
 
 npm run dev
+
 
 ---
 
